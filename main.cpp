@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     //int n ;
-    cout<<"click * to begin game" ;
+    cout<<"click & to begin game" ;
     char res ;
     cin>>res ;
 
