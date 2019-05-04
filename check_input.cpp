@@ -1,17 +1,16 @@
-#include "check_input.h"
 #include<iostream>
-using namespace std;
-
-void checker()
+using namespace std ;
+void checker(char c)
 {
-    //if (c != '*')
-    //{
-      //  char c1 ;
-       // cin>>c1 ;
-        //check_input(c1) ;
-    //}
-    //else
-    //{
-        cout<<"game starts" ;
-    //}
+    if ( c == '*')
+    {
+        cout<<"enter game"<<endl ;
+    }
+    else
+    {
+        char c1 ;
+        cout<<"enter * to begin game"<<endl ;
+        cin>>c1 ;
+        checker(c1) ;
+    }
 }

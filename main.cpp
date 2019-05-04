@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
     //int n ;
-    cout<<"click & to begin game" ;
+    cout<<"click & to begin game"<<endl ;
     char res ;
     cin>>res ;
 
-    checker() ;
+    checker(res) ;
 
     return 0;
 }

@@ -1,6 +1,6 @@
 #ifndef ADD_HEADER
 #define ADD_HEADER
 
-void checker() ;
+void checker(char) ;
 
 #endif
