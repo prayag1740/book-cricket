@@ -1,10 +1,10 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std ;
 void checker(char c)
 {
     if ( c == '*')
     {
-        cout<<"enter game"<<endl ;
+        cout<<"game starts"<<endl ;
     }
     else
     {
@@ -13,4 +13,11 @@ void checker(char c)
         cin>>c1 ;
         checker(c1) ;
     }
+}
+
+int playerdecide()
+{
+    srand(time(0)) ;
+    int j = rand()%2 + 1 ;
+    return j ;
 }

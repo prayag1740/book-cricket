@@ -5,12 +5,12 @@
 
 1556861584 c:\users\prayag\desktop\book cricket\book_cricket\check_input.h
 
-1556938904 source:c:\users\prayag\desktop\book_cricket\book_cricket\check_input.cpp
-	<iostream>
+1556940576 source:c:\users\prayag\desktop\book_cricket\book_cricket\check_input.cpp
+	<bits/stdc++.h>
 
-1556938883 source:c:\users\prayag\desktop\book_cricket\book_cricket\main.cpp
+1556940568 source:c:\users\prayag\desktop\book_cricket\book_cricket\main.cpp
 	<bits/stdc++.h>
 	"check_input.h"
 
-1556938821 c:\users\prayag\desktop\book_cricket\book_cricket\check_input.h
+1556940274 c:\users\prayag\desktop\book_cricket\book_cricket\check_input.h
 
