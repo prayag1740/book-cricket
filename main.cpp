@@ -22,6 +22,8 @@ int main()
     {
         cout<<"player2 starts first"<<endl ;
     }
+
+    cout<<endl ;
     int start2 ;
 
     if (start1 == 0)
@@ -37,9 +39,12 @@ int main()
 
     arr1[start1] = result ;
 
-    int result2 = scores_calc() ;
+    int result2 = scores_calc2() ;
     arr1[start2] = result2 ;
-
+    cout<<endl ;
+    cout<<endl ;
+    cout<<"Player 1 score is "<<arr1[0]<<endl ;
+    cout<<"Player 2 score is "<<arr1[1]<<endl ;
     //int maxy ; //position of winner
     if (arr1[0] > arr1[1])
     {
@@ -51,8 +56,5 @@ int main()
         //maxy = 1 ;
         cout<<"Player2 wins the game" ;
     }
-
-
-
     return 0;
 }

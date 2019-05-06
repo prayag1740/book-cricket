@@ -35,6 +35,8 @@
 		<Unit filename="check_input.cpp" />
 		<Unit filename="check_input.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="scores.cpp" />
+		<Unit filename="scores.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
