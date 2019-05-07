@@ -13,8 +13,8 @@ int main()
     checker(res) ;
 
 
-    int start1 = playerdecide() ;
-    if (start1%2 == 0)
+    int start1 = playerdecide()%2 ;
+    if (start1 == 0)
     {
         cout<<"player1 starts first"<<endl ;
     }
@@ -34,10 +34,18 @@ int main()
     int arr1[2] ; //For storing the scores of both players
 
     int result = scores_calc() ;
-
+    //int result = 0 ;
     cout<<endl ;
 
     arr1[start1] = result ;
+    if (start1 == 0)
+    {
+        cout<<"Player2 turn now"<<endl ;
+    }
+    else
+    {
+        cout<<"Player1 turn now"<<endl ;
+    }
 
     int result2 = scores_calc2() ;
     arr1[start2] = result2 ;
