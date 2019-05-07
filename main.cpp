@@ -7,7 +7,7 @@ int main()
 {
 
     cout<<"click * to begin game"<<endl ;
-    char res ;
+    string res ;
     cin>>res ;
 
     checker(res) ;

@@ -1,7 +1,8 @@
 #ifndef ADD_HEADER
 #define ADD_HEADER
+#include<string>
 
-void checker(char) ;
+void checker(std ::string) ;
 int playerdecide() ;
 
 #endif

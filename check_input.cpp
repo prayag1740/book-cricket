@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std ;
-void checker(char c)
+void checker(string c)
 {
-    if ( c == '*')
+    if ( c == "*")
     {
         cout<<"game starts"<<endl ;
     }
     else
     {
-        char c1 ;
+        string c1 ;
         cout<<"enter * to begin game"<<endl ;
         cin>>c1 ;
         checker(c1) ;
