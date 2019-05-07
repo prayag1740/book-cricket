@@ -11,7 +11,7 @@ int main()
     cin>>res ;
 
     checker(res) ;
-
+    cout<<endl ;
 
     int start1 = playerdecide()%2 ;
     if (start1 == 0)
@@ -38,6 +38,7 @@ int main()
     cout<<endl ;
 
     arr1[start1] = result ;
+    cout<<endl ;
     if (start1 == 0)
     {
         cout<<"Player2 turn now"<<endl ;
@@ -46,23 +47,25 @@ int main()
     {
         cout<<"Player1 turn now"<<endl ;
     }
-
-    int result2 = scores_calc2() ;
+    cout<<endl ;
+    int result2 = scores_calc2(result) ;
     arr1[start2] = result2 ;
     cout<<endl ;
     cout<<endl ;
     cout<<"Player 1 score is "<<arr1[0]<<endl ;
+    cout<<endl ;
     cout<<"Player 2 score is "<<arr1[1]<<endl ;
-    //int maxy ; //position of winner
+
+    cout<<endl ;
     if (arr1[0] > arr1[1])
     {
-        //maxy = 0 ;
-        cout<<"Player1 wins the game" ;
+
+        cout<<"Player1 wins the game"<<endl  ;
     }
     else
     {
-        //maxy = 1 ;
-        cout<<"Player2 wins the game" ;
+
+        cout<<"Player2 wins the game"<<endl  ;
     }
     return 0;
 }
